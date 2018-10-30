@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+    <p>How to delete properties of an array.</p>
+
+    <p id="demo"></p>
+
+    <script>
+var ns, i, x = "";
+ns = {
+  "name":"naresh",
+  "age":23,
+  "cars": ["Ford","BMW","Fiat"]
+}
+        //delete ns.cars[1];
+        delete ns.age;
+
+for (i in ns.cars) {
+    x += ns.cars[i] + "<br>";
+}
+
+        document.getElementById("demo").innerHTML = ns.age;
+
+    </script>
+
+</body>
+</html>

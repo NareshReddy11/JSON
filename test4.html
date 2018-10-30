@@ -1,0 +1,22 @@
+﻿<html>
+<body>
+
+    <p>Access an array value of a JSON object.</p>
+
+    <p id="demo"></p>
+
+    <script>
+
+        var sw, naresh;
+        sw = {
+            " name":"reddy",
+            "age":23,
+             "salary":[ 10000,20000, 30000,40000 ]
+        };
+        naresh = sw.salary[3];
+        document.getElementById("demo").innerHTML = naresh;
+
+    </script>
+
+</body>
+</html>

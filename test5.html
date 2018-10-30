@@ -1,0 +1,26 @@
+﻿<html>
+<body>
+
+    <p>using a for in loop:</p>
+
+    <p id="demo"></p>
+
+    <script>
+
+var ns, i, x = "";
+ns = {
+    "name":"naresh",
+    "age":23,
+    "cash": [10, 100, 1000, 10000, 100000]
+};
+
+for (i in ns.cash) {
+    x += ns.cash[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = x;
+
+    </script>
+
+</body>
+</html>

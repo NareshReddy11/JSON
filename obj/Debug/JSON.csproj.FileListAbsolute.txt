@@ -1,0 +1,7 @@
+F:\c#.net\JSON\JSON\bin\Debug\JSON.exe.config
+F:\c#.net\JSON\JSON\bin\Debug\JSON.exe
+F:\c#.net\JSON\JSON\bin\Debug\JSON.pdb
+F:\c#.net\JSON\JSON\obj\Debug\JSON.csprojAssemblyReference.cache
+F:\c#.net\JSON\JSON\obj\Debug\JSON.csproj.CoreCompileInputs.cache
+F:\c#.net\JSON\JSON\obj\Debug\JSON.exe
+F:\c#.net\JSON\JSON\obj\Debug\JSON.pdb
